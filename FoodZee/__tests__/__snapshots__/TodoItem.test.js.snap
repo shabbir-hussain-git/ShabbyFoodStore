@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  className="todoItem"
+>
+  <View
+    className="todoItemText"
+  >
+    <Text>
+      Go To Gym
+    </Text>
+  </View>
+  <View
+    className="todoItemText"
+  >
+    <Text
+      testID="ans"
+    >
+      No Hello
+    </Text>
+  </View>
+  <View
+    className="todoItemControls"
+  >
+    <View
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="btn1"
+    >
+      <Text>
+        Edit
+      </Text>
+    </View>
+    <View
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text>
+        Del
+      </Text>
+    </View>
+  </View>
+</View>
+`;
